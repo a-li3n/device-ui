@@ -54,6 +54,9 @@
 #ifdef ELECROW_PANEL
 #include "graphics/LGFX/LGFX_ELECROW70.h"
 #endif
+#ifdef CROWPANEL_V13
+#include "graphics/LGFX/LGFX_ELECROW70_V13.h"
+#endif
 #ifdef ESP32_2432S022
 #include "graphics/LGFX/LGFX_ESP2432S022.h"
 #endif
